@@ -1,0 +1,21 @@
+# THEMENAME.info.yml file for Ice Cream example theme.
+name: Simple HTML Theme
+type: theme
+description: 'A simple html theme'
+package: Custom
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+libraries:
+  - simpletheme/global-styling
+
+
+regions:
+  header: 'Header'
+  title: 'Title'
+  content: 'Content'
+  highlighted: 'Highlighted'
+  highlighted_secondary: 'Highlighted Secondary'
+  footer: 'Footer'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
